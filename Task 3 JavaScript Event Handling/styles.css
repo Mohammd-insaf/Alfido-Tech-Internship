@@ -129,8 +129,6 @@ p {
     font-size: 1.2rem;
     font-weight: bold;
 }
-
-/* Create particles on click */
 @keyframes particle-animation {
     0% {
         transform: translate(0, 0) rotate(0deg);
