@@ -22,8 +22,6 @@ body {
   overflow: hidden;
   color: white;
 }
-
-/* Particle Effect */
 body::before {
   content: "";
   position: absolute;
@@ -48,7 +46,6 @@ body::before {
   100% { transform: translateY(-100px) translateX(50px); }
 }
 
-/* Glass Morphism Card */
 .card {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(12px);
@@ -69,7 +66,6 @@ body::before {
   box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.5);
 }
 
-/* Animated Profile Image */
 .profile-img {
   width: 150px;
   height: 150px;
@@ -82,7 +78,6 @@ body::before {
   position: relative;
   overflow: hidden;
 }
-
 .profile-img::after {
   content: '';
   position: absolute;
@@ -108,8 +103,6 @@ body::before {
   transform: scale(1.1);
   border-color: rgba(255, 255, 255, 0.8);
 }
-
-/* Typography with Gradient Text */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
@@ -128,8 +121,6 @@ h1 {
   font-weight: 700;
   display: inline-block;
 }
-
-/* Bio Styling with Animated Underline */
 .bio {
   font-size: 1.1rem;
   line-height: 1.8;
@@ -166,8 +157,6 @@ h1 {
   font-style: italic;
   color: #fad0c4;
 }
-
-/* Social Icons (Example) */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -190,8 +179,6 @@ h1 {
   background: rgba(255, 255, 255, 0.4);
   transform: translateY(-5px);
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
   .card {
     padding: 30px 20px;
