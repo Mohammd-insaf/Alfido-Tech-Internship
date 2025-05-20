@@ -1,4 +1,3 @@
-// Navbar scroll effect
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -7,8 +6,6 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
-
-// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -18,16 +15,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-// Search box functionality
 const searchInput = document.querySelector('.search-input');
 const searchIcon = document.querySelector('.search-icon');
 
 searchIcon.addEventListener('click', function() {
     searchInput.focus();
 });
-
-// Mobile menu close when clicking a link
 const navLinks = document.querySelectorAll('.nav-link');
 const navbarCollapse = document.querySelector('.navbar-collapse');
 const bsCollapse = new bootstrap.Collapse(navbarCollapse, {toggle: false});
